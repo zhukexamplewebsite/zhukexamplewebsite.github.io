@@ -1,0 +1,259 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:#fc4b4b 3px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: #1e7260 3px solid
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.header_top {
+	background-color: #43484C;
+	padding: 15px 0;
+	color: #fff;
+}
+.header_top a {
+	color: #fff;
+}
+.top_enter {
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 10;
+}
+.top_enter a {
+	text-decoration: underline;
+}
+.top_enter a:hover {
+	text-decoration: none;
+}
+.soc_buttons {
+	float: right;
+}
+.soc_buttons > a {
+	font-size: 26px;
+	margin-left: 8px;
+}
+.user_buttons,
+.main_menu_button {
+	background-color: transparent;
+	border: medium none;
+	font-size: 26px;
+}
+.main_menu_button {
+	color: #fff;
+	padding: 8px 15px 0;
+}
+.logo {
+	color: #fff;
+	display: block;
+	font-family: "NautilusPompiliusRegular";
+	font-size: 42px;
+	padding: 30px 0;
+	text-align: center;
+}
+.top_info {
+	background-color: #1e7260;
+}
+.main_menu {
+	background-color: #225653;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.main_menu a {
+	color: #fff;
+	padding: 15px;
+	display: block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.main_menu a:hover {
+	background-color: #19413f;
+}
+.main_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+}
+
+
+.my_contact {
+	background-color: #285c58;
+	float: right;
+	font-size: 18px;
+	line-height: 53px;
+	padding: 0 15px;
+}
+.my_email {
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+.my_phone {
+	display: inline-block;
+	margin: 0;
+}
+
+.main_menu ul li {
+	display: inline-block;
+}
+.main_menu ul {
+	z-index: 12;
+}
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "RobotoCondensedLight";
+	padding: 16px 0;
+}
+.foto_container img {
+	max-width: 100%;
+}
+.foto_container {
+	position: relative;
+}
+.next_button, .prev_button {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10em;
+	color: #fff;
+	cursor: pointer;
+	font-size: 46px;
+	padding: 0 25px;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+}
+.next_button {
+	right: 20px;
+}
+.prev_button {
+	left: 20px;
+}
+section.order  {
+	background-color: #eee;
+	padding: 10px 0;
+}
+.left_descr {
+    font-size: 24px;
+    padding-top: 5px;
+	font-family: "RobotoCondensedLight";
+}
+.button {
+    background-color: #1e7260;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.button:hover {
+	background-color: #179783;
+}
+.button:active {
+	background-color: #14af8d;
+}
+.sell_right .button {
+	float: right;
+}
+.hidden {
+	display: none;
+}
+.hide_form input[type="text"] {
+    display: block;
+    line-height: 24px;
+    margin: 0 auto 12px;
+    width: 90%;
+    border: #999 3px solid;
+}
+.hide_form .button {
+	margin: 20px auto 0;
+}
+.hide_form h3 {
+    margin: 10px auto 15px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "RobotoCondensedBold";
+    text-transform: uppercase;
+}
+.blog_item img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.blog_item h3 {
+	text-transform: uppercase;
+	font-family: "RobotoCondensedRegular";
+	margin-bottom: 10px;
+}
+.blog_item h3 a {
+	text-decoration: underline;
+	color: #1e7260;
+}
+.blog_item h3 a:hover {
+	color: #2c9a83;
+}
+.blog_item p {
+	margin-top: 0;
+}
+.right_aside {
+	padding: 15px 20px;
+	border-radius: 5px;
+	background-color: #EEEEEE;
+	margin-top: 30px;
+}
+.right_aside ul{
+	padding: 0 0;
+	text-size: 16px;
+}
+.right_aside b{
+	color: #1e7260;
+	margin-right: 5px;
+}
+.right_aside b:hover{
+	text-decoration: underline;
+	cursor: default;
+}
+.right_aside li{
+	list-style-type: none;
+	padding: 1px 0;
+}
+section.footer  {
+	background-color: #43484C;
+	padding: 25px 0;
+}
+#scrollup {
+	position: fixed;
+	opacity: 0.8;
+	padding: 4px 16px;
+	background: #aaa;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	left: 10px;
+	bottom: 5px;
+	display: none;
+	cursor: pointer;
+}
